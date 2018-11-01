@@ -1,0 +1,29 @@
+/*
+selector {
+    propertie:value;
+}
+*/
+
+body{
+    background-color:#3d4444;
+    font-size:60px;
+    font-family:serif;
+}
+.blue{
+    color:#1d61d6;   
+}
+.babyblue{
+    color:#6f99e2;   
+}
+.lightblue{
+    color:#9ebbed ;   
+}
+.fuchsia{
+    color:fuchsia;   
+}
+.pink{
+    color:#ef73e1;   
+}
+.yellow{
+    color:#f6f939;   
+}
