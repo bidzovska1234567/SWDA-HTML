@@ -1,0 +1,48 @@
+/*
+selector {
+    propertie:value;
+}
+*/
+
+body{
+    background-color:#232323;
+    font-size:70px;
+    font-family:sans-serif;
+}
+.green{
+    color:#0f8e2f;
+}
+.red{
+    color:#0808cc;
+}
+.babyblue{
+    color:#08b5cc;
+}
+.yellow{
+    color:#08cc0e;
+}
+.lightgreen{
+    color:#41db5d;
+}
+.white{
+    color:#e7ef07;
+}
+.lightyellow{
+    color:#ecf24d;
+}
+.pink{
+    color:#c1090c;
+}
+.lightred{
+    color:#ce2f32;
+}
+
+.brown{
+    color:fuchsia;
+}
+.babypink{
+    color:#f58cf7;
+}
+.purple{
+    color:#ef095a;
+}
