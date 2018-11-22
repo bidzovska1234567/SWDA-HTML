@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="femina1.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="logo">
+                <img src="http://www.femina.mk/images/femina-logo.png" height="60px" width="140px">
+        </div>
+      <div class="search-button">
+          <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAAA4VBMVEX29vb////7+/v4/Pv//f/mAIHjAYDlAH7tw93/4//WPo3dAHj7+f/9////4f///P////vjAHrlAIT/5v/19vLpAH759Pe/AGffhbjqAIHeAHf/9f/kAHm6AGe9AGTOAHDOEHjVgbDbXaD9//fol8neA4H/8P/gcbX2vOLJJYHkk8Poydf+6f3LRY/na67TAGfqjsXy4PH21+z2rNP8zvDUG3r0stzxweTacqXYZqbnhcP2ptjaXKnECXfWPovekMatAF2jGWjAfKPKpLvSSo3ET4/eLpDooMnPJ3rbT53gdrKEsFLoAAADRElEQVR4nO3YXXPaOBiGYRQjKeCYYIEgNgKTpE6arNmPNG22m236lW6y/f8/qK/cPeie7J6EIQP3NWMb2zMMj15Lluh0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB41sayJd8/Jj9cnkzabSw7OSSTTfy0tRuPY0w5xFaQnMlYdCbfb4zbk04y3t7sk85eG1IKP0lkl7QNMB4nciJb0jbA1mnrPBuNeoNerzeKu0GrFz+1W7w1OltD9j21cVmydz1fLObT6VwOHz5++vz508cPi/l8Pl0s4sV49ejg6bNvOrgaqsNM3aTeOmHD8uEsXp3dPpaFLnzwhfeFDeHv2ZNH33zZ2+z7qTO5MT48XqvD64eH60M1uCi18XlqbO7qYPuHW5hdqW423C+l5NrY6kY199Mynd4P1E1lXWFNYay0i+s//Tj/HLIrqXuprbWu/qqau9wap8Nd0z1KXWG0NrrQ1vW3sb9L8m62n0r2wknZL0vtJXxR/ar2K+2NlezSLHYN2Z9B3f/JnufOvb6arYLVznnvVwejOs+9tbuQXQb6x6bp11L22gZ/d9b8FVLp8DuRvdDLq4MvbdK6DvdqVOva2XwHsltjffVS+ruzvnAu9vdfjHN6F555Y2yR/6zOVmkc58t+o366vCid2YXsMqA7LYVv3i6qanoyytSw2/xebfU4n0n29v3ui7rOX8u8bvDqVU+pq9+63aF6s8xdkVu93dmlu7vah+WLUbx69mJ+PstOh2pwUvncOL+l2Ycqkzmt0/HZ9qF8d/7+/cm7ypcng3j74HaZOhfutjG7rGYyyR4nrzbOZKxJQwgys/Pl8vZQSt8drOQN2H/6ddzm57TSq9v5vKmNLOS8zGsKmd0YK4NcWr0dqb1hNvsjzVdbWXcZ0SS7ZI1zOKu1rNfj4y+jvqxpL152h6enTe23su5xBS/LFpnVydvMRC72/fi6d7oI1XmjskHq1/DfxeYLL2Ndpq6XIeR5O9aFkKa5nOTS6a3syovbN/1Q/rmGNWxnb/OSTnN59IPjfx+P5Xh8s4boz0TyH2LrJMn/fwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQHwDhOdRpnhOVakAAAAASUVORK5CYII=" height=70px width=150px> -->
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASUAAACsCAMAAAAKcUrhAAAAeFBMVEX/////M8z/yu7/AMf/2fP/uur/Gsn/Pc3/E8j/N83/8/v/YNT6+vrX19fa2tr09PTh4eHt7e3/Kcvm5ubLy8v/id7w8PDR0dH/wOz/W9T/l+L/r+j/VdP/pub/TNH/9/2/v7//j+D/tuv/Ztb/ftz/0PD/n+T/qedi+WZYAAABtUlEQVR4nO3Yi27TMABAUcPYKMyx4zhr9oYxGP//h7idBB1IoxKVkopzpKSpG6nulZtWCQEAAAAAANh6e0xmqzSsTpbj7HXDbJU+3H6be4X8dHn25lXv56t0Pttb/+HTSqW/+6jSHlTah0r7eFFpGJ63xVXKvw7j7uDO+O6ZOf526r/arTRcXLTtYVhUpSl8Dl2XQ8whxbavpe3jpkAXchdi2kbJm12MMadNpnH7rPTpUHPZqTQ8PZ5/vXu8/TIsqVLqUyljrTmVMYZxXfsppy73uaY2EmIf+j5Oab0e4xin3JUpxKn0XelCKYeay26l05Onh5vV2bIq1Sm2xRT6LpXNsplq7Ptc6qZSF57XUl/Huu7G3F4Km7FWtqXLoR5sLruVvl/dX96d394sqtL2k9dQUmrrJ7SFFUtMKXSpfffaY6xhnUpNuetiaXnqpk1tB7mdfLC5vLh6X19cDdfXy7ouLcJx/MbNzf+lfai0D5X2odI+Fnzn5P7ydCluhqVWOqI7uqv57ui+OyazVQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+Gz8APQwjXpX7ia4AAAAASUVORK5CYII=" height=70px width="150px">
+        </div>
+    </div>
+    <div class="container-2">
+            <div class=kukja>
+                <img src="https://cdn.styledtosparkle.com/wp-content/uploads/2015/05/08180055/pink-house-md.png" height="50px" width="50px"></div>
+                <div class= ubavina>
+                УБАВИНА и <br/> МОДА
+                </div>
+                <div class= ubavina>
+                        ЉУБОВ и  <br/>СЕКС
+                    </div>
+                    <div class= ubavina>
+                            ДИЕТИ и  <br/>ФИТНЕС
+                </div>
+                 <div class= ubavina>
+                             РЕЦEПТИ
+                 </div>
+             <div class= ubavina>
+                                ЗДРАВЈЕ
+             </div>
+             <div class= ubavina>
+                            СЕМЕЈСТВО 
+                     </div>
+                                  
+             <div class= ubavina>
+                            КАРИЕРА
+ </div>
+        <div class= ubavina>
+                             НОВОСТИ
+</div>
+                    <div class= ubavina>
+                    ЗАБАВА
+                    </div>
+                <div class= ubavina>
+                 КОЛУМНИ
+            </div>
+            <div class= ubavina>
+                 ФОРУМ
+            </div>
+        </div>
+            <div class="opel">
+                <img src="https://www.opel.mk/content/dam/Opel/Europe/macedonia/nscwebsite/mk/02_Offers_Services/01_CurrentOffers/01_VehiclesOffers_Promotion/2018/10/opel_mk_992x250px_Astra%20Sedan.jpg">
+            </div>
+        </div>
+        <div class=container-3>
+<div class="majka">
+<img src="http://www.femina.mk/images/articles/16754/fb.jpg" width="620px" height="320">
+<span class=slider-title><b>„Моето тело е чудо“: Мајка на 7 деца, која износи 3 пара <br/>близнаци, ги покажа стриите и испрати моќна порака</b></span>
+</div>
+<div class="sport">
+    <img src="http://ads.ereklama.mk/www/images/16c0f4bb3d2be295f835eacb573fdcd5.gif" height="290">
+</div>
+ </div>
+ <div class="container-4">
+     <div class="devojce">
+         <img src="http://www.femina.mk/images/articles/16767/fb.jpg"   width="307" height="147">
+         <span class="t"><b>Видео кое ќе ви ги насолзи очите: <br/>Слепо 2-годишно девојче првпат ја <br/>гледа мајка си по успешна операција</b></span>
+     </div>
+     <div class="blejk">
+         <img src="http://www.femina.mk/images/articles/16766/fb.jpg" width="307" height="147"> 
+         <span class="ti"><b>Еве кои славни личности имаат <br/>најголемо влијание во модата</b></span>
+     </div>
+     <div class="kfc">
+         <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhASEBAQEBUVFhAVGBUXEBUSFxcXGBUWGBUSFRYYHSgiGRsnGxYVITEhJSkuLi4uFx8/ODYsNygtLysBCgoKDg0OGxAQGi4lICYrLTAtLS0tLS0tLS0tLS0tLS4tLS0vLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALABHwMBEQACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAECAwUGBwj/xABEEAABAwIDBAcEBggEBwAAAAABAAIDBBEFEiEGMUFRBxMiYXGBkRQyQqEjUmKxwdEVFyRDgpKy8DM0csIlU3ODk6Kj/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAECAwQFBgf/xAA0EQACAQIEAwUHBAIDAAAAAAAAAQIDEQQFEiETMUEGFCJRYRUyQlJxgaEjM5GxwdE0YuH/2gAMAwEAAhEDEQA/ANIu6eOCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgQQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAECCAIAgCAIAgCAIAgCAISEICAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgQQBAEAQBAEAQFHOA3qk6kYK8nY2MPha2IlppRbfoYzOOAWjUzOlHldnpsN2OxtVJ1Go/XmWGoPILXea+UTqR7Dq3iq7/QqKju+atHNY/FEwVexFRLwVE36qxe2YHuW5SxtGptez9TgYzs7jsLeUoXXmtzIts4drcwguEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAECCAIAgCAIAgMckttAufi8dGleMd3/R6vIuzVTGvi1rxh/f0MDiuFUqzqO8nc+mYbB4fCU9NKKSN5hOx9bUAOjgc1p+OQ9WPK+p9FMaMn6GpiM4wtLbVd+hvo+i2qI7U9O08u2752Cyd2fmaD7RQvtD8kWs6Na1gJYYZu5ry0+jh+Kh4eS5MvDtDRk/HFr8nK4hhssDsk0T4ncnNtfwO4+SxShKPQ61DFUMQv05L6df4I8cxb4clt4bGzp7PdHDzfs5h8ZFyglGfmuv1RLY8EXC71KrGpHVFnzDGYGtg6rpVVZlyymoEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAggCAIAgCAxzPtoFo47EqlCy5v8AB6bs3kzx1fXU9yPP19C2kpnyvbHG0ve4gNaN5K88k5s+qValLDUrvaK5f6R7BsjsLDShskwbNPvudWs7mA8ftfctynSUfqeKx+a1cU7LaPkjsFnOWWkqLg0lFtTSzTyU0codIy/CzXEe8GO+Ijiqqcb2ubc8FXhSVVx8LJuI0UU7DHNG2Rp4OF/McipaTVmYIVJwkpRdn6Hkm2mxrqW8sN3wnnq6M8ncx3rUq0bbo9VlubKq+FW59GcjHIWn71fC4l0Z7cupfO8phj6Di/eXJ/4J4K9LGSkro+Q1aUqVR05qzQUmMIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgQQBAEAQAqG0k2+haEXJqK62t9yK51zdeWxNV1KrkfbcowKwWEhSXO136s9X6LdnhHF7XIPpJR2L/DHzHe7f4WWajTsrs83nWOdarw4vwxO8JWwcUsJQHmvSLtkQX0dMSCNJZBoRp/hM9dXenFa1arbZHosoytVP16vLov8nL1mylRT0sNbnYAercA0kPZmtkdfdfdu3LC6UorVc7EMxoV67wun0362O82F2tNW0xTD6aNty4DsvbcDN3OuRcei2KdTVzPO5rlvdJaoe6zp6iNr2uY8BzXAgg7iDvCyvc5KbTTXQ8P2swY0s7497feYebDu9Ny0asdLPcZbi1iaG/vLma+ik0I5LsZbWcoum+nI8N2vwCpVliYr3tn9SSuoeNCAIAgCAXQC6AXQFMw5hNgVBUXQV2FN0TYIQEAQBAEAQBAEAQBAggCAIAgLJToVrYueijJ/Y7GQYfj5hSi+Sd/4LaGlMssUQ/ePYz+ZwH4rzMFeSR9gxlbg0JT8kfRMUYY1rGizWgNA7gLBdI+ct3dypcpB55t7te4CSnpC427M0zQSGX/dtcNA7meG4a3ts0aN95fwatatbaP3ZwkJ65gbNduWzY5yDlbyhld9TXQ72/6d1cXhYzV48/7Ojk2czwk9E7uD/Bkp6etqHMoM0pDD/hucckYHxn7IB0Ou8W3rkWm3oZ7SU8HSi8Wrb9er/wDT1fZ3A4qOLq4+042L3kavd+AHALahBRVjyGNxs8VU1S5dF5GzLlc0zhulKjDooZratcWHwcPzCw1o3jc7eRVdOI0fMjzOldZw8wrYCemsjb7T0eLl8/OO5sF6M+ThAZ6GldLJHEz3nua0eJNrn71EpaU5FoRc5KK6nYYpXYfhzvZ20bayVob1j5CBqQDYEg89wFgtFcSr4r2R240KNFaXG7JVDXYbJBUVkdCzrIGtzQkjL2jYObpltv1tfTcqy4sWoORkjRw78aiatu3FMdHYTT5Dvs5pPfb6Ma+avwZr4iuqk+cNjZ45j9LR+ztpqCnlZLEJmudoe0TobtJ4c1jhGdRvVIyONKmlpijJszjlHWy5ZaGGGdgc5lgC1+UG7dw1G+xB+SVITgtpXTEI0ZveKujW0231RJfqcNgkIF+xG95HK4aFZ0LLeRCqXdlBE/aDbKop5mQxUsF3RwPymNxdnkFy0AEcdLb1WnSUldsvOpoaSiizBsYbirpKSsp445crzHIxpaWubvbZ1yCN+/WxuFMoujaUXdGOUYV04SVmcHLGWuc129pc0+INj8wuhF3VzgSVm0WqSoQBAEAQBAEAQBAggCAIAgMc+70WhmN+A/sen7JJe0o38nYn7IW9to7/APNYuDR99H0jOL90n9j3dz1v3PAkarZnY9mZzMzXNzNNnNuCMzTwIvopTs0GrpnnM2JSYXTzUMtO2USdb1cwNmPa8WJc23vN5X5cLE7iiqslJM0nJ0o6WvuRcAx6SWjOGQ0we94e3rM1mhrnEukeLbxff4cdFapTtLiNkQqXjoSO6wLCmUsTI2nO4NDTIR2nWJIaOTASbN4LSqSUpajdhqjBQbJ5cqFimZBY5rpEP7E+/wBeL+pY6nuHQyq/e4fU8hi98eKxYX92J6TOv+FV+jNkvUHxhcghJutjP89Sf9T/AGlYa/7bNnCfvR+pusPYDj8gcA4dZPvF/wB0VqvagjtWvXNFgOkWLN4dR/TM233rJP4PqUj8f0NccTLqZlII2m0zpA+/aJc3Lktb8eSyabS1tmO946bG+2sonU7sKjk95kMYdxsRLcjyvZYaTupMy1VbSiXXNtj1o+MrL274hn+8qFvRLSX6xpdkKaue+ZuHydW4NGftNbcXIb7wPG6yVdCinIx01PU9JsNuaiSDEYZDZ0scVK7XUF7b3va1xcdypQSlTa6F6zaqJkro5Y6atqK2QtAjbLI8DfmkzHst32tm9AmI8MFBE0N5uRytVNnfJJa2d7325ZnF1vmtyCtFI8/OWqTfqYlYoEAQBAEAQBAEAQIIAgCAICycaFamOjegzudm6qp5jTb6u38lmH1XVSxSD4Hsf/KQT8l5um7STPreNpcXDzgudj35kwc0OBuHAEHuIuF0Lnzu3mHFNyu3QgYrQx1Ebopm5mnyLTwe08HD+9FaM3F3RE4KcbEHAMFiomObHrexdI7RziL7+AaBawHfdXq1XUe5SnSVM2TJAQCCCDqCDcEcwVitbmZfVFskzW2zOa3MbC5Aufqi+89yJN8hfzL7oDi+k2tAhiivq52Y+DR+ZCw1naJ2sjpOWJ19EjzOm1ePVMFHVWidLtDV4eAqv0/s2S9KfIQpBJw2rMM0UoF+rex9uYBuR6XVJx1RaL056Jp+TO2xnZ2WqnGIYXPGc4BP0hY5j8uU2NuW8GxGq0I1FCOiaPQNcW1SmzLgmxckNPWRSSw+01MZa1mfQNBvcm1zcnUgcAq1KybVk7IvClpTUnuyK7o6kNM2N0tM2dsr3B2Z1jG5rQWk5b3BFxpxPNX7x472dinA8Frq5M2h2Tnqm0meqpRJDGWPdmdqb9lw05AXvbVUp1VBvZl6lPWluths7gtLQz9bV10Ms77tZ2r5cwsXOJJJJGlzYa96mdSU1aMdiseHTleUlc1I2BLSSMTpmXvucWm3k4K3HVraCvC3upI2dRs9CZqSZ2J037OymY4FzSXmJxJNzJpe/FUVRpNKPMtJQum5LYyYLh1HR1T6mLFKcRO6y8ILD2HahgIfwNracElKc4qOkKVKEnJTVjgMQkY6WV0QysL5CwWtZpcS0W4acF0IX0q55+q4ubceVyOrmIISEAQBAEAQBAECCAIAgCAEXVKkdUXHzRnw1bg1o1F0aZBXk5Jxk4+R91oVVVpxmuqTPUujrHRJCKd57cQ7N/ij4em70W3RnqW54vOME6FVyS8LOfwumeHRdTDVNqRUkukIkbF1OY3Dyeza3dr3rqbW3tax5re+1+ZNdi+JFsxtNmABINKAIn9c0BkRsesBYSSTdUVOlsZHUqGSeWvu9rnzSs62phINKyzo+qJbIbN3F2g4Io0vIaqlzHROr2sZl69jY/YQIhTtDSHNAl+C9hxtuvwUtU722IUqiV9y9ja2R0vXNnJY2V4zQMLWTNd9Eabdn05lP04pWJvUbdzc7MzTCKR9WZWlpNnSEi7bAl2UtBbrffr3rBX0xfhMtDU14uZ5vtZjHtM7nj3fdYPsjj571zastTPeZZhO70N+cuZq6BupPIfet/LIXqOXkee7YYjTho0r7yf4RsWMJIDQSSQAALkk6ADvuu3e27PnHN7HTxdH9cQDkibfgZRceNgVr96przN5ZdXa5FYej+ude7ImWNu1Lv7xlB08UeKp+oWXV30Rmpuj+vFy10MR3aTPaTbjdrdyq8TSfMvHL8QuTS+5dJ0c1pNzJTuJIuTLIT4klmqhYqmtrMl5dXbu2v5Kfq5l3uqKQfxOPluUd6gvhLezar5yRU9G8g0NTSBx3N115W46+CnvcflHsyp8yKjo+IOR1dSsfxZbUG1zpmB3a7k72ukSPZc+skUbsCzKX/pGkyNtmfYZWk7gTnsL95Ud8XylvZcvnD9iqdjWvkxWlax9wx2VoDre9YmSxt3J3pvlEezPOZWDY+kfnLcWp3hjS9+VrDlYN7jaTQajVHiZLnElZbF8qhjGzuGnQYvFmO73Leev4p3ip8o9m0/nM9VsjR0+VtZiPVvcC4BrAAW3sDrdFiZy92JPs2EffmYZtl6SSGeSirTO6FudzS0AWsTvsLHsnnuUrEyUkpKxWpl8VFuEr2OPW4coIAgCAIAgCBBAEAQBAEBFnFj4rzuYUdFW/Rn1nsrje8YJQb3ht9uhWjqnxPbJG4tc03BH96hacZaXdHfxOHhXpuE+X9Hqezu1sdSA15EU31SdHd7Cd/hvW1CakeKxuXVcLLlePRm/zLJY54ugKEoDFU1LI2l8jmsaN5JsE5bkxTk7RTbZ5ttftYZ7xRXbFx4GTx5N7lr1Kt9kenyzKlTfFrc+iOOe6+9YEjuN3NhQss3x1XoMvpaKV31PlvanGcbGuEeUFb79TpthafPXUwtcNc55/haSPnZbOJl+m2cTBQvXivIibTVk0tVXSMkkyMkcDaRwAaHiNthfnZYqUYqMUzq1JScm0zdbd1plo8JlzOu6OTMQTq4NjDr+YKxUoLXJGWrN6Is1VfjBqZcMe43ewQxv1+Jk2jvMEFZFT06jG5uWkk4pmwytrWtbZs0UwZb6surD/C648lWKVSmi026c36kWTZ62FNqcguZ77v3djGD/ADferua4ukrw3w7jFa1pdhdSLF7Y4g8W1vBJlB8wPkohH3okSknpZsqaMVGK1sgAIa2rde31YzG0/MKj8NJF/fqM0WG4nGyhq6d2bPK6ncyzdOw4F1zw0WWUG5xkikZpQkmSMWH/AA7DT9uuH/0akP3ZCX7aNxhHsJpq/wBlFV13scmcylmW3ZzZcv2gFhnxNS1crl4cPS9POxy4gg9kc8yH2jrg0R30MWS+a1vraXutluWu3QwpR0XfMnbQvcYcMdJc/s5G/UtbM8NF/wDTZUpJapJF6jvGNzrdm6mjfS4n7DBLTuEPbMkhkv2ZLW7Rtud6rXmpqUdbMl48OehdDz8LpHmyqAISUQBAEAQIIAgCAIAgMdQy48NVo4+jxKbtzPR9mMx7pjFGTtGWz+vQhledPrQDrIRJKStLdG8w3a2qhAAlztHwyDP89/zWWNaSOTiMlw1XeOzNwzpCltrBEfB7h8tVfj+hoS7Pb7VPwYKrb+ocOw2KPvsXn56fJRx78kZKfZ+mt5zv9DmsQxaWY3lkfIeFzoPBo0CpKcpdTq0MJQoLwR39SASqGdu/MrEzMQFlo0nUmoo0cwxccLh51ZPkvybYBepjFRSSPjNWpKpNzlzbuzsOjCP9qkkO6OF59SPwBWri34LepvZZG9XV6HLUrqh8dW6JhdG8NdM7LfKA8yNJPDUH0VmorSmbibd2iViNTmw6jbfWKarb6hjx/UoirVJfQlu9JFmJYaaarjZ8JdBIw82uLXD0Nx5K0ZqUX9w4uMkdf0ywgeyPt2iJm37hlI+ZPqtbCPmZ8UtkdHWUzJKM0TWgXo2PZbm3d/7BvqsKvr1epkdmtHoeQUNA6WOokadIGB7vAuAt3byfJdCU0nbzNKMW035HbdFlJeOvmOoLOrv/AAuc7XzatXEy3SNjDLnI5nAaGGShxCV4Dnwtpyx2YjLmcQ7QGx81mnNqcUYqcE4ybL8RffDaDumrR82H8Ujbiv7B/tL6s3eD45FLT1VPHQRQP9jnzSstmfkYN4DAdTrvKxTptSUnLqZYTTjZR6HMx4JI6mdUNa85Zerc3ITYFjS14G8i5IPks7qrVYwKk9Nze7ayOqGYdLHTyN+gc0sEL7Ncx4BZa26407rLFRSTkmzLWu1FpHT7OYtJVx1cM1E2kb1Du0yN8WbQi1yBwWGpBQaadzJGWuLi1bY8xbuC6l7nmSqAIAgCAIAgQQBAEAQBAE+pKbTTRCnZY9xXm8bh+FUfkfXOzuZrG4VKT8cdn/sxLTO+UQhuxQoUuWqSCiAoShBOoIrDMeO7wXay2hpXEZ887WZjxKiwsHst39ehKXVPGG72Vx72SSQuj61kjMj23sbcwfM6d6w1qXEW3M2sJiVRm21sb2m2voYWPjhw3KyUZZG52gObYixFjfefVa7w1STu5G+sypR2UWYTtPh+XJ+iIy25dlJZbMQAT7u+wA8lPd6vzFfaFH5DLUbcU8haZMMgkLLNYXOa4taNwF49NeSLCTXxD2nB/AWzbfCX/M0FPPYksub5QeHaade8WUd0a5SIWZp+9Agy7azmqZUtYxgYzqxFqW5CblpPO4GvcFkWGWjS2YXj5OqppWXkTmdIGW4ZQUzA73gD7w5GzRz43VO6f9jKs0fyGN3SFOMoigp4WgkuYGkh3cd1vJT3NdWQ8zn8MUXDpFnHu01K0cRldry3EJ3RfMx7Ul8qKfrHquEVKByyP9feTucfMj2nP5UWu6RqzgymH/bd6e+p7nHzI9p1eiRjd0h13OAb9BF+blPc4Ee063oW/rBrvrw/+IfmndIFfaVb0/gi1+2lbMx0b5WhrgQcrA0kcRffbwVo4WEXcrPMK0lbY59bBpBAEAQBAEAQIIAgCAIAgCAsmjzC3otbFUFVg116HWybMpYDEqouT2kvNEArzUoOLs+aPsNGrGtBTg7prZlFUs2WkokVLVIKFCDJTxZjbhxWxhqLq1Euhy83zGOBw8qj58kvU2gC9LGKirI+QVakqk3OXNsKxQIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCBBAEAQBAEAQBARquL4h5/muTmGFuuJHn1Pb9ls64b7pWez91+T8iGSuKfQC1SAUIKKUnJ2RjqVI04uUnZI2dNDlHfxXo8Jh1Rh6nyjPM0eOxDa9xbL/ZlW2cQIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIEEAQBAVQFEBVAUQFC5Q+RKbi7rma+pjsbjd93cuBjcLw5ao8mfT+zudd7pKlVfjX5XmYVoHpyiEEujjA7R38F2MBhbfqT+x4HtPnDm3haL2+J/4JmYLrXPD2K3UkhCAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIEEAQBAEAQFCoJMb3KrbJSRGleVVtmWMUQp6khYalpJxaN3DSlSqKpB2a5FlPUh97bxvH4rhV6LpvbkfTsrzKOMp3fvLmv8mGprQ05Qbnj3LLhqOqV5cjRzvNHRhwqb8T/BlhqiV2YyPntSnd3ZPikKyps1pRRJY4q6MTSMrSpKMuUkBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAECCAIAgCAIAgKFqElpiCholSZifRtO8KuguqskYf0Yy9wLHmscsPCWzNijj6tGWqDsy0YUzkEVGKViJ42pNuUnuzMyiaOCuoJGF1pMzNhCtYprZcGqbFblwCkgIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCBBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQIIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCkIKAEAQBAEAQBAEJCAIQEAQBAEAQBAEAQBSAoAQBAEAQBAEAQBAEAQBAEAQBAEB/9k="  width="307" height="147">
+     </div>
+ </div>
+ <div class="container-5">
+     <div class="next">
+         <img src="http://www.femina.mk/images/articles/16769/fb.jpg"width="307" height="147">
+         <span class= title><b>Романса во Турција: Мартин од  <br/>Next Time  со саканата Андреа на <br/>патување во Истанбул
+            </b></span>
+     </div>
+     <div class="artist">
+         <img src="http://www.femina.mk/images/articles/16765/fb.jpg" width="307" height="147">
+         <span class="tit"><b>Артист низ илустрации прикажува <br/>секојдневни ситуации од животот <br/>со неговата девојка</b></span>
+     </div>
+     <div class="frizider">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiX3Jh74qxYdwRtFXDnQZ6IJziEO_21tAG0Q8CduwrjjXIqtj_w" height="147"  width="307" >
+     </div>
+ </div>
+
+                                                      
+           
+    
+</body>
+</html>

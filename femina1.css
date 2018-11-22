@@ -1,0 +1,150 @@
+.container1 {
+    /* width: 100%; */
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+   margin-left:15%;
+   margin-right: 15%;
+   border-bottom: 5px fuchsia solid;
+  }
+.container1 .logo{
+    flex:1;
+    order:1;
+}
+.container1 .search-button{
+    order:2;
+    justify-content:flex-end;
+    border-bottom: 5px fuchsia solid;
+}
+.container-2{
+    height:60px;
+    background-color: white;
+    flex-direction: row;
+    margin-left:15%;
+    margin-right: 15%;
+    display:flex;
+}
+.kukja{
+    
+
+}
+.ubavina{
+    text-align: center;
+   font-weight: bold;
+   padding-left: 1.3%;
+   padding-top:4px;
+  }
+  .container-3{
+    margin-left:15%;
+    margin-right: 15%;
+    display:flex;
+    justify-content: space-between;
+  }
+.opel{
+    margin-left: 17%;
+}
+.majka{
+ border:1px whitesolid;
+ width: 10px;
+}
+.slider-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color:transparent ;
+    box-sizing: border-box;
+    padding-top: 650px;
+    padding-left: 350px;
+    color:white;
+    font-size: 18px;
+   }
+.sport{
+    border-top:5px, white solid;
+   
+}
+.container-4{
+    margin-left:15%;
+    margin-right: 15%;
+    display:flex;  
+    border-top:7px white solid;
+}
+.t{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color:transparent ;
+    box-sizing: border-box;
+    padding-top: 800px;
+    padding-left: 240px;
+    color:black;
+    font-size: 18px;
+}
+.blejk{
+    border-left: 8px white solid;
+}
+.ti{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color:transparent ;
+    box-sizing: border-box;
+    padding-top: 820px;
+    padding-left: 560px;
+    color:black;
+    font-size: 18px;
+
+}
+.bf{
+    border-left:75px white solid;
+}
+.kfc{
+    border-left:70px white solid;
+}
+.container-5{
+    margin-left:15%;
+    margin-right: 15%;
+    display:flex;  
+    border-top:7px white solid;
+}
+.next{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color:transparent ;
+    box-sizing: border-box;
+    padding-top: 960px;
+    padding-left: 240px;
+    color:black;
+    font-size: 18px;
+    
+}
+.artist{
+    border-left: 8px white solid;  
+}
+.tit{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color:transparent ;
+    box-sizing: border-box;
+    padding-top: 960px;
+    padding-left: 540px;
+    color:black;
+    font-size: 18px;
+     
+}
+.frizider{
+    border-left:70px white solid;
+
+}
