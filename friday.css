@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    margin: 50px;
+    background-color: darkcyan;
+}
+.chilly{
+    width: 470px;
+    height: 321px;
+    border: 1px solid black;
+    background-image: url(.vscode/friday.png);
+  border-radius: 12px;
+}
+.my{
+    color:white;
+    font-weight: bold;
+    padding: 37px 0px 36px 37px;
+    font-size: 32px;
+}
+.nuts{
+    color:white;
+    padding:0px 0px 0px 37px;
+    font-weight: 21.3px;
+}
+.fish{
+    color:white;
+    padding:35px 0px 0px 37px;
+    font-weight: 21.3px;
+}
+.order{
+        width: 94px;
+        height:32px;
+        border-radius:2px;
+        background-color:#ed2835;
+        color:white;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin: 45px 0px 0px 37px;
+        font-size: 18.66px;
+    }

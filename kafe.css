@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+ body {
+    background-color: darkgreen;
+    margin: 50px;
+}
+.kafe{
+    width: 469px;
+    height: 612px;
+    background-image:url(".vscode/kafe.png");
+    border-radius: 12px;
+}
+.up-title{ 
+    text-align: center;
+    color: lightgray;
+    padding: 53px 171px 10px 171px;
+    font-size: 12px;
+}
+.linija{
+    width: 46px;
+    height:5px;
+    border-top:solid darkslategray 3px;
+    margin-left:209px;
+}
+.main{
+    color:darkslategray;
+    text-align: center;
+    padding: 14px 161px 21px 161px;
+     font-size: 21px;
+     font-weight: bold;
+     font-style:montserrat;
+}
+.drinking{
+    color:gray;
+    padding: 15px 102px 13px 102px;
+    text-align: center;
+    font-size: 15px;
+}
+.latest{
+    color: gray;
+    padding:0px 130px 66px 130px;
+    font-size: 18,66px;
+}
+.order-now{
+    width: 114px;
+    height:30px;
+    border-radius:2px;
+    background-color:#4286f4;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 240px 178px 51px 178px;
+    font-size: 18,66px;
+}
