@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+ body {
+    background-color: darkgreen;
+    margin: 50px;
+}
+.kafe{
+    width: 469px;
+    height: 612px;
+    background-color:transparent;
+    border-radius: 12px;
+    border:1px solid black;
+}.up-title{ 
+    text-align: center;
+    color: gray;
+    padding: 53px 171px 12px 171px;
+    /* font-size: 48px; */
+}

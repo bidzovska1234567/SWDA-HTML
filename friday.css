@@ -13,7 +13,7 @@ body{
     width: 470px;
     height: 321px;
     border: 1px solid black;
-    background-image: url(.vscode/friday.png);
+    background-image: url(vscode/friday.png);
   border-radius: 12px;
 }
 .my{

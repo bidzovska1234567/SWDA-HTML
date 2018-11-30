@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+    padding-left: 80px;
+    padding-right: 160px;
+}
+.header-top{
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    float:right;
+    padding-right: 570px;
+}
+.header-bottom{
+    background-color: blue;
+    width:100%;
+    height: 50px;
+}
+.kukja{
+    float:right;
+    padding-right: 630px;
+}
+.header-bottom .menu{
+    /* text-align: center; */
+    float: left;
+    padding-left:100px;
+    padding-bottom: 230px;
+    }
+    .ubavina{
+        float:left;
+        padding-bottom: 100px;
+        padding-right: 630px;
+    }
+.reklama{
+    background-color: aqua;
+    width:808px;
+    height: 250px;
+}
+.glavna-vest{
+    background-color: yellow;
+    width: 370px;
+    height: 298px;
+}
+.kafe{
+    background-color: fuchsia;
+    width:200px;
+    height: 298px;
+    position:absolute;
+    top:370px;
+    left: 850px;
+}
+.gorni-sliki{
+    background-color: darkred;
+    width: 370px;
+    height: 149px;
+}
+.dolni-sliki{
+    background-color: rgb(140, 84, 193);
+    width:370px;
+    height:149px;
+}
+.najnovi{
+    background-color: rgb(4, 56, 56);
+    width:200px;
+    height:250px;
+    position:absolute;
+    top:670px;
+    left: 850px;
+}
+.horoskop{
+    background-color: rgb(69, 66, 66);
+    width:200px;
+    height:250px;
+    position:absolute;
+    top:930px;
+    left: 850px;
+
+}
