@@ -1,0 +1,91 @@
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
+    body {
+   
+        margin-left: 50px;
+        margin-top: 50px;
+        background-color:cadetblue;
+    }
+    .main-container{
+        width:362px;
+        height: 430px;
+        /* border:2px solid black; */
+        border-radius:4px;
+        background-color: transparent;
+    } 
+    .container-top{
+        width: 360px;
+        height:211px;
+        background-image: url(vscode/bridge1.png);
+    }
+    .middle{
+        width:362px;
+        height:64px;
+        background-color: #cf817f;
+        color:white;
+        font-weight: bold;
+        font-style: titilliumweb;
+    }
+    .m-title {
+        display: flex;
+        flex-direction: row;
+    }
+    .strelka1{
+        color:white;
+        opacity: 0.5;
+        padding:12px 0px 0px 14px;
+        font-size:40px;
+        /* text-align:center; */
+         line-height: 40px;
+      }
+      .tekst{
+          color:white;
+          font-size:18px;
+          line-height:18px;
+          padding:25px 0px 0px 80px;
+          font-style:TitilliumWeb;
+      }
+      .strelka2{
+        color:white;
+        opacity: 0.5;
+        padding:12px 14px 0px 90px;
+        font-size:40px;
+         line-height: 40px;
+      }
+    .bottom{
+        width: 362px;
+        height: 155px;
+        background-color: white;
+        }
+        .bot-tit{
+            display: flex;
+            flex-direction: column; 
+        }
+        .first{
+         color:#5f1a2b;
+font-style:TitilliumWeb;
+font-size:12px;
+/* line-height:15px; */
+padding:23px 0px 0px 21px;
+line-height: 1.3;
+font-weight:bold;
+        }
+        .read{
+            color:#5f1a2b;
+font-style:TitilliumWeb;
+font-size:15px;
+padding:27px 0px 0px 21px;
+opacity: 0.5;
+        }
+        .linija{
+            padding:2px 0px 0px 21px;
+            opacity: 0.5; 
+            color:#5f1a2b;
+            width:94px;
+            
+        }

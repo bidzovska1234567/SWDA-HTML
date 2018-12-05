@@ -1,0 +1,63 @@
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
+    body {
+   
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .main-container{
+        width:432px;
+        height: 429px;
+        border:1px black solid;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .top{
+        width: 431px;
+        height: 173px;
+        background-image: url(vscode/planina.png);
+        border-bottom: 10px solid darkcyan;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .bottom{
+        width:432px;
+        height:259px;
+        background-image: url(vscode/dolendel.png);
+        border-radius:0px 0px 10px 10px;
+    }
+    .ikoni{
+        display:flex;
+        padding:26px 25px 0px 28px;
+    }
+    .april{
+        color:firebrick;
+        font-size:20px;
+        flex-flow: row;
+        font-weight: bold;
+    }
+    .plus{
+        color:firebrick;
+        font-size:40px;
+        flex-flow: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin: -10px 0 0 240px;
+    }
+
+     .kalendar{
+         width: 368px;
+         height:18px;
+         display:flex;
+         flex-flow: row;
+         flex-wrap: wrap;
+     }
+    .denovi {
+        display: flex;
+      margin-top:54px; 
+      margin-right:250px;
+    }
