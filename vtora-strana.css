@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Segoe UI';
+
+}
+body{
+    width:100%;
+    height:100vh;
+    position: absolute;
+}
+/* .vtora-strana {
+    position:fixed;
+    background-color: white;
+} */
+h1{
+    color:gray;
+    font-weight: bold;
+    font-size:1300%;
+    opacity: 0.2;
+    z-index: 1; 
+    position: absolute;
+    left:2%;
+}
+h2{
+    color: gray;
+    font-weight: bold;
+    font-size:200%;
+  position: absolute;
+  left:40%;
+  top:30%;
+}
+.main-text{
+    color:gray;
+    font-size:150%;
+    font-weight: bold;
+    position:absolute;
+    left:40%;
+    top:40%;
+} 
+.kocka{
+    width:20%;
+    height:34%;
+    background-color:#95CAD4;
+    opacity: 0.5;
+    z-index:2;
+    position: absolute;
+}
